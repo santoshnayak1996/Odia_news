@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.odishaexclusive.odianewspaper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SavedPage"
+            android:label="Saved Pages" />
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us" />
+        <activity
+            android:name=".sambad"
+            android:label="Sambad"
+           />
+        <activity
+            android:name=".samaya"
+            android:label="Samaya" />
+        <activity android:name=".prameya"
+            android:label="prameya"/>
+        <activity android:name=".samaja"
+            android:label="samaja"/>
+        <activity android:name=".pragatibadi"
+            android:label="pragatibadi"/>
+        <activity android:name=".dharitri"
+            android:label="dharitri"/>
+        <activity android:name=".odishaexclusive"
+            android:label="odishaexclusive"/>
+        <activity android:name=".otv"
+            android:label="otv"/>
+        <activity android:name=".dinalipi"
+            android:label="dinalipi"/>
+        <activity android:name=".odishabhaskar"
+            android:label="odishabhaskar"/>
+        <activity android:name=".anupambharat"
+            android:label="anupambharat"/>
+        <activity android:name=".odishreporter"
+            android:label="odishreporter"></activity>
+    </application>
+
+</manifest>
