@@ -26,7 +26,7 @@ public class pragatibadi extends AppCompatActivity {
         setContentView(R.layout.activity_pragatibadi);
 
         MobileAds.initialize(this,
-                "ca-app-pub-7962001766479415~3120449561");
+                Config.BannerAdID);
 
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -75,10 +75,10 @@ public class pragatibadi extends AppCompatActivity {
             super.onBackPressed();
             //Load Interstitial ad
             MobileAds.initialize(this,
-                    "ca-app-pub-7962001766479415~3120449561");
+                    Config.Publisher_id);
 
             mInterstitialAd = new InterstitialAd(this);
-            mInterstitialAd.setAdUnitId("ca-app-pub-7962001766479415/2562030453");
+            mInterstitialAd.setAdUnitId(Config.Interstitial_Ad_Id);
             mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
             AdRequest adRequest = new AdRequest.Builder()

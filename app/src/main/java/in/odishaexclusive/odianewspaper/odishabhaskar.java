@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdListener;
@@ -13,6 +14,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.facebook.ads.*;
 
 public class odishabhaskar extends AppCompatActivity {
     private WebView webView;
@@ -20,17 +22,20 @@ public class odishabhaskar extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
     private AdView mAdView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Banner AD
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_odishabhaskar);
 
         MobileAds.initialize(this,
-                "ca-app-pub-7962001766479415~3120449561");
+                Config.BannerAdID);
 
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
 
 
         progressBar = (ProgressBar) findViewById(R.id.odishabhaskarprg);
@@ -59,7 +64,7 @@ public class odishabhaskar extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://epaper.odishabhaskar.com/");
+        webView.loadUrl("https://odishabhaskar.com/epaper/");
     }
 
     private void showInterstitial() {
@@ -77,10 +82,10 @@ public class odishabhaskar extends AppCompatActivity {
             super.onBackPressed();
             //Load Interstitial ad
             MobileAds.initialize(this,
-                    "ca-app-pub-7962001766479415~3120449561");
+                    Config.Publisher_id);
 
             mInterstitialAd = new InterstitialAd(this);
-            mInterstitialAd.setAdUnitId("ca-app-pub-7962001766479415/2562030453");
+            mInterstitialAd.setAdUnitId(Config.Interstitial_Ad_Id);
             mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
             AdRequest adRequest = new AdRequest.Builder()

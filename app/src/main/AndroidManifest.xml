@@ -54,6 +54,8 @@
             android:label="anupambharat"/>
         <activity android:name=".odishreporter"
             android:label="odishreporter"></activity>
+        <activity android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
     </application>
 
 </manifest>

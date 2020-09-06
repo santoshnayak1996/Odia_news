@@ -25,6 +25,16 @@
         <ImageView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:src="@drawable/bhaskar"
+            android:id="@+id/bhaskar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
             android:src="@drawable/sambad"
             android:id="@+id/sambad"
             android:layout_marginTop="30dp"
@@ -112,15 +122,7 @@
             android:layout_marginRight="50dp"
             />
 
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/bhaskar"
-            android:id="@+id/bhaskar"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            />
+
         <ImageView
             android:layout_width="300dp"
             android:layout_height="wrap_content"

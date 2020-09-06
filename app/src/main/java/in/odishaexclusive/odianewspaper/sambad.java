@@ -30,8 +30,9 @@ public class sambad extends AppCompatActivity {
         setContentView(R.layout.activity_sambad);
 
 
+        //Banner ad
         MobileAds.initialize(this,
-                "ca-app-pub-7962001766479415~3120449561");
+                Config.BannerAdID);
 
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -40,7 +41,7 @@ public class sambad extends AppCompatActivity {
 
         progressBar = (ProgressBar) findViewById(R.id.sambadprg);
 
-        String newUA="http://www.sambadepaper.com/epapermain.aspx"; // Change this to desired UA
+//        String newUA="https://theodisha.today/"; // Change this to desired UA
         webView= (WebView)findViewById(R.id.sambadweb);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setUseWideViewPort(true);
@@ -64,7 +65,7 @@ public class sambad extends AppCompatActivity {
                                  }
 
         );
-        webView.loadUrl("http://www.sambadepaper.com/epapermain.aspx");
+        webView.loadUrl("https://sambadepaper.com/");
     }
 
 
@@ -84,10 +85,10 @@ public class sambad extends AppCompatActivity {
 
             //Load Interstitial ad
             MobileAds.initialize(this,
-                    "ca-app-pub-7962001766479415~3120449561");
+                    Config.Publisher_id);
 
             mInterstitialAd = new InterstitialAd(this);
-            mInterstitialAd.setAdUnitId("ca-app-pub-7962001766479415/2562030453");
+            mInterstitialAd.setAdUnitId(Config.Interstitial_Ad_Id);
             mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
             AdRequest adRequest = new AdRequest.Builder()
