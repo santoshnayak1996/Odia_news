@@ -58,7 +58,7 @@ public class dharitri extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://www.dharitri.com/e-Paper/index.html");
+        webView.loadUrl("https://www.dharitri.com/e-Paper/index.html");
     }
 
 

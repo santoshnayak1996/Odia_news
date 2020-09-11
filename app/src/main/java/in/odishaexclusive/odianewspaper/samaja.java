@@ -57,7 +57,7 @@ public class samaja extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://www.samajaepaper.in/");
+        webView.loadUrl("https://samajaepaper.in/");
 
     }
     private void showInterstitial() {

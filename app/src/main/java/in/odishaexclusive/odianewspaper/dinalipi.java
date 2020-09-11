@@ -59,7 +59,7 @@ public class dinalipi extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://www.dinalipi.com/");
+        webView.loadUrl("https://www.dinalipi.com/");
     }
 
     private void showInterstitial() {

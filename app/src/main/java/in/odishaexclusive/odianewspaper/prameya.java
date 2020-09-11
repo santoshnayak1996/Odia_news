@@ -58,7 +58,7 @@ public class prameya extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://epaper.prameyanews.com/");
+        webView.loadUrl("https://google.com");
 
 
     }

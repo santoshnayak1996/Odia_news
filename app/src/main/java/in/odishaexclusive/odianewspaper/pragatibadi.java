@@ -57,7 +57,7 @@ public class pragatibadi extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://pragativadi.com/epaper/");
+        webView.loadUrl("https://pragativadi.com/epaper/");
 
     }
 

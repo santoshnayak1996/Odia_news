@@ -64,29 +64,18 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-       final ImageView samaya = (ImageView) findViewById(R.id.samaya);
-        // Set a click listener on that View
+//     s
 
-        samaya.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the colors View is clicked on.
-            @Override
-            public void onClick(View view) {
-                Intent samayaIntent = new Intent(MainActivity.this, samaya.class);
-                startActivity(samayaIntent);
-            }
-        });
-
-        final ImageView prameya = (ImageView) findViewById(R.id.prameya);
-        // Set a click listener on that View
-
-        prameya.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the colors View is clicked on.
-            @Override
-            public void onClick(View view) {
-                Intent prameyaIntent = new Intent(MainActivity.this, prameya.class);
-                startActivity(prameyaIntent);
-            }
-        });
+//        final ImageView prameya = (ImageView) findViewById(R.id.prameya);
+//
+//        prameya.setOnClickListener(new View.OnClickListener() {
+//            // The code in this method will be executed when the colors View is clicked on.
+//            @Override
+//            public void onClick(View view) {
+//                Intent prameyaIntent = new Intent(MainActivity.this, prameya.class);
+//                startActivity(prameyaIntent);
+//            }
+//        });
 
 
         final ImageView samaja = (ImageView) findViewById(R.id.samaja);
@@ -178,17 +167,17 @@ public class MainActivity extends AppCompatActivity
         });
 
 
-        final ImageView anupambharat = (ImageView) findViewById(R.id.anupambharat);
-        // Set a click listener on that View
-
-        anupambharat.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the colors View is clicked on.
-            @Override
-            public void onClick(View view) {
-                Intent anupambharatIntent = new Intent(MainActivity.this, anupambharat.class);
-                startActivity(anupambharatIntent);
-            }
-        });
+//        final ImageView anupambharat = (ImageView) findViewById(R.id.anupambharat);
+//        // Set a click listener on that View
+//
+//        anupambharat.setOnClickListener(new View.OnClickListener() {
+//            // The code in this method will be executed when the colors View is clicked on.
+//            @Override
+//            public void onClick(View view) {
+//                Intent anupambharatIntent = new Intent(MainActivity.this, anupambharat.class);
+//                startActivity(anupambharatIntent);
+//            }
+//        });
 
         final ImageView odishareporter = (ImageView) findViewById(R.id.odishareporter);
         // Set a click listener on that View

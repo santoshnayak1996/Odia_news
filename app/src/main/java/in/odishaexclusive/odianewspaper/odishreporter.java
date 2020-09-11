@@ -59,7 +59,7 @@ public class odishreporter extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://odishareporter.in/");
+        webView.loadUrl("https://odishareporter.in/");
     }
     private void showInterstitial() {
         if (mInterstitialAd.isLoaded()) {

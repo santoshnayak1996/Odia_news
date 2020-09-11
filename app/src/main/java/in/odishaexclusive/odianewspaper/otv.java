@@ -58,7 +58,7 @@ public class otv extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://khabar.odishatv.in/");
+        webView.loadUrl("https://khabar.odishatv.in/");
 
 
 

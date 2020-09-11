@@ -66,7 +66,7 @@ public class anupambharat extends AppCompatActivity {
 
 
         );
-        webView.loadUrl("http://epaper.anupambharatonline.com/");
+        webView.loadUrl("https://epaper.anupambharatonline.com/");
     }
 
 

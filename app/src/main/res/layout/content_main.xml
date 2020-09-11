@@ -46,32 +46,23 @@
         <ImageView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/samaya"
-            android:id="@+id/samaya"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            />
-
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/prameya"
-            android:id="@+id/prameya"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            />
-
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
             android:src="@drawable/sam"
             android:id="@+id/samaja"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             />
+
+<!--        <ImageView-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/samaya"-->
+<!--            android:id="@+id/samaya"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            />-->
+
         <ImageView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -102,6 +93,8 @@
             android:layout_marginRight="50dp"
             />
 
+
+
         <ImageView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -121,17 +114,6 @@
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             />
-
-
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/anupambharat"
-            android:id="@+id/anupambharat"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            />
         <ImageView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -141,6 +123,37 @@
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             />
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/prameya"-->
+<!--            android:id="@+id/prameya"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            />-->
+
+
+
+
+
+
+
+
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/anupambharat"-->
+<!--            android:id="@+id/anupambharat"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            />-->
+<!--       -->
 
 
 
